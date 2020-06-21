@@ -12,6 +12,17 @@ class StatePropsLearning extends React.Component {
     console.log("--------------------------------------");
   }
 
+  /*
+  getDefaultProps(){
+    console.log('getDefaultProps');
+    console.log("--------------------------------------");
+  }
+*/
+  getInitialState() {
+    console.log("getInitialState");
+    console.log("--------------------------------------");
+  }
+
   render() {
     console.log("Reder");
     console.log("--------------------------------------");
